@@ -3,7 +3,7 @@
 <br><br>
 Требование к ПО: наличие установленого и запущенного docker<br><br>
 Установка: 
-1. Скачиваем vm_docker_ui.7z и распаковываем архив
+1. Скачиваем <code>vm_docker_ui.7z</code> и распаковываем архив
 3. В папке с распакованным файлом вызываем команду <code>docker load --input vm_docker_ui.tar</code>
 4. Команда для запуска: <code>docker run -d --name vm_docker_ui -p 5000:5000 vm_docker_ui</code>
 5. Переходим в браузере по URl <code>http://localhost:5000</code>
